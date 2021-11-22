@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2009 ... 2020 2021
+ * Copyright (c) 2009 ... 2021 2022
  *     John McCue <jmccue@jmcunx.com>
  *
  * Permission to use, copy, modify, and distribute this software for any
@@ -29,8 +29,6 @@
 #include "rtw.h"
 
 #define SCKARG 80
-
-char *rtw_i_c="$Id: rtw_i.c,v 3.4 2021/02/21 21:10:25 jmccue Exp $";
 
 /*
  * init_w() -- initialize work area

@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2009 ... 2020 2021
+ * Copyright (c) 2009 ... 2021 2022
  *     John McCue <jmccue@jmcunx.com>
  *
  * Permission to use, copy, modify, and distribute this software for any
@@ -24,13 +24,6 @@
 #include <j_lib2m.h>
 
 #include "rtw.h"
-
-char *rtw_h_c="$Id: rtw_h.c,v 3.4 2021/02/21 21:10:25 jmccue Exp $";
-
-extern char *rtw_c;
-extern char *rtw_h_c;
-extern char *rtw_i_c;
-extern char *rtw_u_c;
 
 #define MSG_HELP_11  "Remove Trailing White space"
 
@@ -64,18 +57,9 @@ void show_rev(FILE *fp, char *pname)
 {
 
   fprintf(fp,"%s %s:\n", pname, LIT_REV);
-  fprintf(fp,"\t%s\n", RTW_H);
-  fprintf(fp,"\t%s\n", rtw_c);
-  fprintf(fp,"\t%s\n", rtw_h_c);
-  fprintf(fp,"\t%s\n", rtw_i_c);
-  fprintf(fp,"\t%s\n", rtw_u_c);
 
-#ifdef J_LIB2M_H
-  fprintf(fp, "\t%s\n", J_LIB2M_H);
-#endif
 #ifdef J_LIB2_H
-  fprintf(fp, "\t%s\n", J_LIB2_H);
-  fprintf(fp, "\t     %s %s\n", LIT_INFO_02, j2_get_build());
+  fprintf(fp, "\t%s %s\n", LIT_INFO_02, j2_get_build());
 #endif
 
 #ifdef OSTYPE

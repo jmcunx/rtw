@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2009 ... 2020 2021
+ * Copyright (c) 2009 ... 2021 2022
  *     John McCue <jmccue@jmcunx.com>
  *
  * Permission to use, copy, modify, and distribute this software for any
@@ -17,7 +17,7 @@
 
 #ifndef RTW_H
 
-#define RTW_H "$Id: rtw.h,v 3.2 2020/06/18 17:59:07 jmccue Exp $"
+#define RTW_H "included"
 
 #define PROG_NAME  "rtw"
 

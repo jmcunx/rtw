@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2009 ...  2020 2021
+ * Copyright (c) 2009 ...  2021 2022
  *     John McCue <jmccue@jmcunx.com>
  *
  * Permission to use, copy, modify, and distribute this software for any
@@ -32,8 +32,6 @@
 #include <j_lib2m.h>
 
 #include "rtw.h"
-
-char *rtw_c="$Id: rtw.c,v 3.8 2021/02/21 21:10:25 jmccue Exp $";
 
 /*
  * show_file_heading() -- Show run stats
