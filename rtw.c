@@ -154,9 +154,9 @@ void process_all(int argc, char **argv, struct s_work *w)
 
 }  /* process_all() */
 
-/******************************************************************************
-* main()
-******************************************************************************/
+/*
+ * main()
+ */
 int main(int argc, char **argv)
 
 {
@@ -176,5 +176,3 @@ int main(int argc, char **argv)
   exit(EXIT_SUCCESS);
 
 }  /* main() */
-
-/* END: rtw.c */
