@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2009 ...  2021 2022
+ * Copyright (c) 2009 ...  2022 2023
  *     John McCue <jmccue@jmcunx.com>
  *
  * Permission to use, copy, modify, and distribute this software for any
@@ -179,6 +179,10 @@ int main(int argc, char **argv)
   
   close_out(&(w.out));
   close_out(&(w.err));
+
+  if (w.prog_name != (char *) NULL)
+    free(w.prog_name);
+
   exit(EXIT_SUCCESS);
 
 }  /* main() */
