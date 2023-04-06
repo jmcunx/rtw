@@ -4,7 +4,7 @@ This is a little utility created a very long time
 ago for systems without sed(1).  All it does is Remove
 Trailing White space from a file.
 
-This requires [j\_lib2](https://github.com/jmcunx/j_lib2) to build.
+[j\_lib2](https://github.com/jmcunx/j_lib2) is an **optional** dependency.
 
 [GNU automake](https://en.wikipedia.org/wiki/Automake)
 only confuses me, but this seems to be good enough for me.
